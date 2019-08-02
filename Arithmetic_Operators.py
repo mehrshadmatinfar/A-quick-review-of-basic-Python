@@ -16,3 +16,8 @@ b = 1 / 3
 print("4 / 2 = " + str(a))
 print("int(4 / 2) = " + str(int(a)))
 print("1 / 3 = " + str(b))
+
+a = 4 // 2
+b = 1 // 3
+print("4 // 2 = " + str(a))
+print("1 // 3 = " + str(b))
