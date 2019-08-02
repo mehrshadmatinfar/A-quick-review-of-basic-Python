@@ -30,3 +30,6 @@ print(a)
 print(a["history"])
 
 # Set
+a = {4, 10, 19, 24}
+print(type(a))
+print(a)
