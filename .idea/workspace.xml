@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data_Structure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="307">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -252,7 +252,7 @@
       <workItem from="1564638501214" duration="1589000" />
       <workItem from="1564658761728" duration="1280000" />
       <workItem from="1564663118277" duration="3299000" />
-      <workItem from="1564754967169" duration="6424000" />
+      <workItem from="1564754967169" duration="8092000" />
     </task>
     <task id="LOCAL-00001" summary="Variables file added">
       <created>1564662730291</created>
@@ -429,11 +429,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564765906997</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="array &amp; List part created">
+      <created>1564767055486</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1564767055486</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Tuple part created">
+      <created>1564767671862</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564767671862</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13838000" />
+    <option name="totallyTimeSpent" value="15506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,8 +489,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variables file added" />
-    <MESSAGE value="Integer part added" />
     <MESSAGE value="Float part added" />
     <MESSAGE value="String part added" />
     <MESSAGE value="Evaluation part added" />
@@ -500,10 +512,12 @@
     <MESSAGE value="data structure created" />
     <MESSAGE value="Topics added" />
     <MESSAGE value="Sequence part created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sequence part created" />
+    <MESSAGE value="array &amp; List part created" />
+    <MESSAGE value="Tuple part created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuple part created" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Review$Data_Structure.coverage" NAME="Data_Structure Coverage Results" MODIFIED="1564766176406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Review$Data_Structure.coverage" NAME="Data_Structure Coverage Results" MODIFIED="1564768387294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Comparison_Operators.coverage" NAME="Comparison_Operators Coverage Results" MODIFIED="1564757538841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Arithmetic_Operators.coverage" NAME="Arithmetic_Operators Coverage Results" MODIFIED="1564757107453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Logical_Operators.coverage" NAME="Logical_Operators Coverage Results" MODIFIED="1564764404976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -543,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Structure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="307">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>

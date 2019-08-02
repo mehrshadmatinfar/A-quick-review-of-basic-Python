@@ -24,5 +24,9 @@ print(type(a))
 print(a)
 
 # Dictionary
+a = {"math": 15, "history": 20, "Geography": 19, "chemistry": 19, "Physics": 19}
+print(type(a))
+print(a)
+print(a["history"])
 
 # Set
