@@ -1,3 +1,7 @@
 # Sum
 a = 2 + 2
-print("Sum example: " + str(a))
+print("2 + 2 = " + str(a))
+
+# Subtraction
+a = 8 - 2
+print("8 - 2 = " + str(a))
