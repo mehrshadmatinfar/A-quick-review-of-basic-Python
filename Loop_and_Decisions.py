@@ -32,3 +32,7 @@ for i in range(10):
 name = "How are you?"
 for i in range(len(name)):
     print(name[i])
+
+# Pass
+if 1 == 1:
+    pass  # pass does nothing :)
