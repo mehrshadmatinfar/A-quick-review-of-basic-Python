@@ -21,3 +21,9 @@ a = 4 // 2
 b = 1 // 3
 print("4 // 2 = " + str(a))
 print("1 // 3 = " + str(b))
+
+# Divide remaining
+a = 4 % 2
+b = 7 % 2
+print("4 % 2 = " + str(a))
+print("7 % 2 = " + str(b))
