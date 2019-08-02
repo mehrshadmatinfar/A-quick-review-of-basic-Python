@@ -18,3 +18,17 @@ while a <= c:
 else:
     print("stop")
     a = 1
+
+# for
+for i in range(1, 10):
+    if i != 3:
+        print(i)
+        continue
+print("-----------------")
+for i in range(10):
+    print(i)
+    if i == 4:
+        break
+name = "How are you?"
+for i in range(len(name)):
+    print(name[i])
