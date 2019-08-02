@@ -16,6 +16,12 @@ print(List[1][2])
 print(List[3])
 
 # Tuple
+a = ('a', 19, 'hello')
+print(type(a))
+print(a)
+a = 'a', 19, 'hello'
+print(type(a))
+print(a)
 
 # Dictionary
 
