@@ -8,3 +8,9 @@ C = a == b and a == c
 print("C = a == b and a == c --> " + str(C))
 C = a == b and a <= c
 print("C = a == b and a <= c --> " + str(C))
+
+# or
+C = a == b or a == c
+print("C = a == b or a == c --> " + str(C))
+C = a == b or a <= c
+print("C = a == b or a <= c --> " + str(C))
