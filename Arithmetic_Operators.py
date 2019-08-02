@@ -27,3 +27,7 @@ a = 4 % 2
 b = 7 % 2
 print("4 % 2 = " + str(a))
 print("7 % 2 = " + str(b))
+
+# Power
+a = 2 ** 3
+print("2 ** 3 = " + str(a))
