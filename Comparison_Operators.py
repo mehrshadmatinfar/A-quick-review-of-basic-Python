@@ -19,3 +19,10 @@ C = a > c
 print("a > c --> " + str(C))
 C = a > d
 print("a > c --> " + str(C))
+
+C = a >= b
+print("a >= b --> " + str(C))
+C = a >= c
+print("a >= c --> " + str(C))
+C = a >= d
+print("a >= c --> " + str(C))
