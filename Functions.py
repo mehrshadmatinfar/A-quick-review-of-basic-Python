@@ -1,3 +1,4 @@
+# part 1
 class program:
     name = ""
     ID = 0
@@ -14,6 +15,8 @@ b.add_To_Class = 59
 
 print(b.add_To_Class)
 
+# part 2
+
 
 def even(number):
     if number % 2 == 0:
@@ -23,3 +26,25 @@ def even(number):
 
 
 print(even(19))
+
+# part 3
+
+
+class Time:
+    hours = 0
+    minutes = 0
+    second = 0
+
+
+def Time_Print(t):
+    print(str(t.hours) + ":" + str(t.minutes) + ":" + str(t.second))
+
+
+afternoon = Time()
+afternoon.hours = 17
+afternoon.minutes = 35
+afternoon.second = 6
+
+Time_Print(afternoon)
+
+

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3d1a1ad-7a90-4710-8545-0eb6a5a9738d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loop_and_Decisions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loop_and_Decisions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/Logical_Operators.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -34,17 +34,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Structure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="578">
               <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Loop_and_Decisions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="166">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#19#39#0" />
+                <element signature="e#22#90#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +86,7 @@
         <option value="$PROJECT_DIR$/Data_Structure.py" />
         <option value="$PROJECT_DIR$/Loop_and_if.py" />
         <option value="$PROJECT_DIR$/Loop_and_Decisions.py" />
+        <option value="$PROJECT_DIR$/Functions.py" />
       </list>
     </option>
   </component>
@@ -88,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,7 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Loop_and_Decisions">
+  <component name="RunManager" selected="Python.Functions">
     <configuration name="Arithmetic_Operators" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Review" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,6 +195,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Structure.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Review" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,9 +298,11 @@
       <item itemvalue="Python.Logical_Operators" />
       <item itemvalue="Python.Data_Structure" />
       <item itemvalue="Python.Loop_and_Decisions" />
+      <item itemvalue="Python.Functions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Functions" />
         <item itemvalue="Python.Loop_and_Decisions" />
         <item itemvalue="Python.Data_Structure" />
         <item itemvalue="Python.Logical_Operators" />
@@ -287,7 +325,8 @@
       <workItem from="1564638501214" duration="1589000" />
       <workItem from="1564658761728" duration="1280000" />
       <workItem from="1564663118277" duration="3299000" />
-      <workItem from="1564754967169" duration="12523000" />
+      <workItem from="1564754967169" duration="12772000" />
+      <workItem from="1564832494618" duration="4380000" />
     </task>
     <task id="LOCAL-00001" summary="Variables file added">
       <created>1564662730291</created>
@@ -520,11 +559,46 @@
       <option name="project" value="LOCAL" />
       <updated>1564776484002</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="for part added">
+      <created>1564777550542</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1564777550542</updated>
+    </task>
+    <task id="LOCAL-00035" summary="pass part added">
+      <created>1564777653896</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1564777653896</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Functions file created">
+      <created>1564835058205</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1564835058205</updated>
+    </task>
+    <task id="LOCAL-00037" summary="def part added">
+      <created>1564841878124</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1564841878124</updated>
+    </task>
+    <task id="LOCAL-00038" summary="class part added">
+      <created>1564842548517</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1564842548517</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19937000" />
+    <option name="totallyTimeSpent" value="24566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,7 +613,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -566,11 +640,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Multiplication part added" />
-    <MESSAGE value="Division part added" />
-    <MESSAGE value="integer part of a division added to division part" />
-    <MESSAGE value="Divide remaining part added" />
-    <MESSAGE value="Power part added" />
     <MESSAGE value="Comparison operators file created" />
     <MESSAGE value="== part added" />
     <MESSAGE value="!= part added" />
@@ -591,20 +660,24 @@
     <MESSAGE value="if renamed to Decisions(because of While command)" />
     <MESSAGE value="if part added" />
     <MESSAGE value="While part added" />
-    <option name="LAST_COMMIT_MESSAGE" value="While part added" />
+    <MESSAGE value="for part added" />
+    <MESSAGE value="pass part added" />
+    <MESSAGE value="Functions file created" />
+    <MESSAGE value="def part added" />
+    <MESSAGE value="class part added" />
+    <option name="LAST_COMMIT_MESSAGE" value="class part added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Review$Loop_and_Decisions.coverage" NAME="Loop_and_Decisions Coverage Results" MODIFIED="1564777453866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Review$Loop_and_Decisions.coverage" NAME="Loop_and_Decisions Coverage Results" MODIFIED="1564835274688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Data_Structure.coverage" NAME="Data_Structure Coverage Results" MODIFIED="1564768873286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Comparison_Operators.coverage" NAME="Comparison_Operators Coverage Results" MODIFIED="1564757538841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Arithmetic_Operators.coverage" NAME="Arithmetic_Operators Coverage Results" MODIFIED="1564757107453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Logical_Operators.coverage" NAME="Logical_Operators Coverage Results" MODIFIED="1564764404976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Review$Unnamed.coverage" NAME="Variables Coverage Results" MODIFIED="1564665878444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Review$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1564842966961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Comparison_Operators.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Comparison_Operators.py" />
     <entry file="file://$PROJECT_DIR$/Arithmetic_Operators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -629,21 +702,32 @@
     <entry file="file://$PROJECT_DIR$/Logical_Operators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Structure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="578">
           <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Loop_and_Decisions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="166">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#19#39#0" />
+            <element signature="e#22#90#0" />
+          </folding>
         </state>
       </provider>
     </entry>
