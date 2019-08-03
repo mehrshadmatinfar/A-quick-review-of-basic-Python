@@ -1,5 +1,5 @@
 # part 1
-class program:
+class program(object):
     name = ""
     ID = 0
 
@@ -30,7 +30,7 @@ print(even(19))
 # part 3
 
 
-class Time:
+class Time(object):
     hours = 0
     minutes = 0
     second = 0
@@ -49,7 +49,7 @@ Time_Print(afternoon)
 
 
 # part 4
-class Time2:
+class Time2(object):
     hours = 0
     minutes = 0
     second = 0
@@ -67,7 +67,7 @@ Time2.Time_Print2(morning)
 # part 5
 
 
-class Language:
+class Language(object):
     def langname(self, name):
         self.name = name
 
@@ -78,3 +78,19 @@ class Language:
 L1 = Language()
 L1.langname("java")
 print(L1.dispname())
+
+# part 6
+
+
+class Time3(object):
+    def __init__(self, hours=0, minutes=0, second=0):
+        self.hours = hours
+        self.minutes = minutes
+        self.second = second
+
+    def printTime3(self):
+        print(str(self.hours) + ":" + str(self.minutes) + ":" + str(self.second))
+
+
+time3 = Time3(10, 10, 10)
+time3.printTime3()
