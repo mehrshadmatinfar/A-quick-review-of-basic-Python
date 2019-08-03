@@ -48,3 +48,17 @@ afternoon.second = 6
 Time_Print(afternoon)
 
 
+# part 4
+class Time2:
+    hours = 0
+    minutes = 0
+    second = 0
+
+    def Time_Print2(u):
+        print(str(u.hours) + ":" + str(u.minutes) + ":" + str(u.second))
+
+morning = Time2()
+morning.hours = 8
+morning.minutes = 20
+morning.second = 10
+Time2.Time_Print2(morning)
