@@ -57,8 +57,24 @@ class Time2:
     def Time_Print2(u):
         print(str(u.hours) + ":" + str(u.minutes) + ":" + str(u.second))
 
+
 morning = Time2()
 morning.hours = 8
 morning.minutes = 20
 morning.second = 10
 Time2.Time_Print2(morning)
+
+# part 5
+
+
+class Language:
+    def langname(self, name):
+        self.name = name
+
+    def dispname(self):
+        return self.name
+
+
+L1 = Language()
+L1.langname("java")
+print(L1.dispname())
