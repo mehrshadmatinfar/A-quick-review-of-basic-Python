@@ -94,3 +94,75 @@ class Time3(object):
 
 time3 = Time3(10, 10, 10)
 time3.printTime3()
+
+# part 7
+
+
+class father(object):
+    k = 7
+
+    def __init__(self, color='green'):
+        self.color = color
+
+    def Hello1(self):
+        print("It is Class1!")
+
+    def printColor(self):
+        print("I like the color", self.color)
+
+    def __localHello(self):
+        print("A hardy Hello only used within the class!")
+
+
+class mather(object):
+    pass
+
+
+class son(father, mather):
+    def __init__(self):
+        father.__init__(self, color='green')
+
+    def Hello2(self):
+        print("It is Class2!")
+        print(self.k, "is my favorite number")
+
+
+c1 = father()
+c2 = son()
+print("Class1 says hello:")
+c1.Hello1()
+
+print("Class2 says a Class1 hello:")
+c2.Hello1()
+
+print("Class2 says its own hello:")
+c2.Hello2()
+
+print("Class1 color via __init__():")
+c1.printColor()
+
+print("Class2 color via inherited __init__() and printColor():")
+c2.printColor()
+
+print("Class1 changes its mind about the color:")
+c1 = father('yellow')
+c1.printColor()
+
+print("Wonder what Class2 has to say now:")
+c2.printColor()
+print('-'*20)
+
+if hasattr(father, "Hello2"):
+    print(c1.Hello2())
+else:
+    print("Class1 does not contain method Hello2()")
+if issubclass(son, father):
+    print("Class2 is a subclass of Class1, or Class2 has inherited Class1")
+
+print("Variable k from Class1 =", c1.k)
+print('-'*20)
+
+if hasattr(father, "__localHello()"):
+    print(c1.__localHello())
+else:
+    print("No access to Class1 private method __localHello()")
