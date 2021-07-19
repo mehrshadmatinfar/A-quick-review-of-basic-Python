@@ -1,13 +1,21 @@
 # Integer
-a = 2
-print("Integer example: " + str(a))
+I = 2
+print(type(I))
+print("Integer example: " + str(I))
 
 # Float
-f = 2.2
-print("Float example: " + str(f))
+F = 2.2
+print(type(F))
+print("Float example: " + str(F))
+
+# Complex
+C = 2 + 7j
+print(type(C))
+print("Complex example: " + str(C))
 
 # String
 S = 'hello world!'
+print(type(S))
 print("String example: " + S)
 
 # Evaluation
