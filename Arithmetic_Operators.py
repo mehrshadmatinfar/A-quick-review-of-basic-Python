@@ -1,3 +1,5 @@
+import math
+
 # Sum
 a = 2 + 2
 print("2 + 2 = " + str(a))
@@ -31,3 +33,16 @@ print("7 % 2 = " + str(b))
 # Power
 a = 2 ** 3
 print("2 ** 3 = " + str(a))
+
+# math library
+print('--- math ---')
+print(math.sqrt(16))       # 4.0
+print(math.trunc(4.9))     # 4
+print(int(4.9))            # 4
+print(math.factorial(3))   # 6
+print(math.log2(16))       # 4.0
+print(math.fmod(17, 2))    # 1.0
+print(17 % 2)              # 1
+print(math.fabs(-5))       # 5.0
+print(math.pow(2, 4))      # 16.0
+print(math.pi)             # 3.141592653589793
