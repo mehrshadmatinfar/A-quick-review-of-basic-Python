@@ -1,4 +1,5 @@
 # IF
+print('--- if ---')
 a = 1
 b = 2
 c = 7
@@ -10,6 +11,11 @@ elif a == c and a != c:
 else:
     print("a != b")
 print("I'm not in if 'HA HA HA HA...'")
+
+# Conditional expression
+print('--- conditional expression ---')
+m = a if a < b else b
+print(m)
 
 # While
 while a <= c:
