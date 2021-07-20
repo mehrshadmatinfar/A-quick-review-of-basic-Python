@@ -18,6 +18,7 @@ m = a if a < b else b
 print(m)
 
 # While
+print('--- While loop ---')
 while a <= c:
     print(a)
     a += 1
@@ -26,6 +27,7 @@ else:
     a = 1
 
 # for
+print('--- for loop ---')
 for i in range(1, 10):
     if i != 3:
         print(i)
