@@ -1,4 +1,5 @@
 import math
+import random
 
 # Sum
 a = 2 + 2
@@ -46,3 +47,8 @@ print(17 % 2)              # 1
 print(math.fabs(-5))       # 5.0
 print(math.pow(2, 4))      # 16.0
 print(math.pi)             # 3.141592653589793
+
+# random library
+print('--- random ---')
+print(random.randint(1, 10))  # random number between 1 and 10
+print(random.choice([1, 10]))  # select 1 or 10
