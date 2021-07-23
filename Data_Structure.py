@@ -89,12 +89,41 @@ print(a)                      # [19, 20, 10]
 
 
 # Tuple
-a = ('a', 19, 'hello')
-print(type(a))
-print(a)
-a = 'a', 19, 'hello'
-print(type(a))
-print(a)
+print('--- tuple ---')
+Tuple = ('a', 19, 'hello')        # tuples are immutable
+print(type(Tuple))                # <class 'tuple'>
+print(Tuple)                      # ('a', 19, 'hello')
+another_Tuple = 'a', 'b', 'c', 'd', 'e', 'f'
+print(type(another_Tuple))        # <class 'tuple'>
+print(another_Tuple)              # ('a', 'b', 'c', 'd', 'e', 'f')
+print(another_Tuple[0])           # a
+print(another_Tuple[2:5])         # ('c', 'd', 'e')
+print('f' in another_Tuple)       # True
+print('z' in another_Tuple)       # False
+print('--- part 01 ---')
+my_Tuple = 1, 2, 4, 7, 19, 21, 24
+print(type(my_Tuple))             # <class 'tuple'>
+print(my_Tuple)                   # (1, 2, 4, 7, 19, 21, 24)
+print(sum(my_Tuple))              # 78
+print(max(my_Tuple))              # 24
+print(min(my_Tuple))              # 1
+print(my_Tuple.count(2))          # 1
+print(tuple(reversed(my_Tuple)))  # (24, 21, 19, 7, 4, 2, 1)
+my_List = list(my_Tuple)
+print(my_List)                    # [1, 2, 4, 7, 19, 21, 24]
+my_List.append(74)
+print(my_List)                    # [1, 2, 4, 7, 19, 21, 24, 74]
+print(tuple(my_List))             # (1, 2, 4, 7, 19, 21, 24, 74)
+print('--- part 02 ---')
+Tuple1 = (1, 2)
+Tuple2 = ('x', 'y')
+c = zip(Tuple1, Tuple2)
+print(list(c))           # [(1, 'x'), (2, 'y')]
+
+x = [(1, 'x'), (2, 'y')]
+u = zip(*x)             # unzip
+print(list(u))          # [(1, 2), ('x','y')]
+
 
 # Dictionary
 a = {"math": 15, "history": 20, "Geography": 19, "chemistry": 19, "Physics": 19}
