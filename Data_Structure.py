@@ -161,6 +161,26 @@ print(Nested_dict['phone']['mobile'])  # +79055856249
 print(Nested_dict['children'][0])      # Elena
 
 # Set
-a = {4, 10, 19, 24}
-print(type(a))
-print(a)
+print('--- Set ---')
+Set = {4, 10, 19, 24, 24, 24, 24}
+print(type(Set))    # <class 'set'>
+print(Set)          # {4, 10, 19, 24}
+print(len(Set))     # 5
+Set.add('U')
+print(Set)          # {4, 10, 'U', 19, 24}
+Set.remove('U')
+print(Set)          # {4, 10, 19, 24}
+print('--- part 01 ---')
+another_Set = {4, 19, 21, 7, 24}
+print(another_Set)                      # {4, 7, 19, 21, 24}
+
+print(Set.intersection(another_Set))    # {24, 19, 4}
+print(Set & another_Set)                # {24, 19, 4}
+
+print(Set.union(another_Set))           # {4, 7, 10, 19, 21, 24}
+print(Set | another_Set)                # {4, 7, 10, 19, 21, 24}
+
+print(Set.difference(another_Set))      # {10}
+print(Set - another_Set)                # {10}
+
+print(Set.issubset(another_Set))        # False
