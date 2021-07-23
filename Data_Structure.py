@@ -126,10 +126,39 @@ print(list(u))          # [(1, 2), ('x','y')]
 
 
 # Dictionary
-a = {"math": 15, "history": 20, "Geography": 19, "chemistry": 19, "Physics": 19}
-print(type(a))
-print(a)
-print(a["history"])
+print('--- Dictionary ---')
+Dictionary = {"math": 15, "history": 20, "Geography": 19, "chemistry": 19, "Physics": 19}
+print(type(Dictionary))                # <class 'dict'>
+print(Dictionary)                      # {'math': 15, 'history': 20, 'Geography': 19, 'chemistry': 19, 'Physics': 19}
+print(len(Dictionary))                 # 5
+print(Dictionary["history"])           # 20
+print(Dictionary.get("history"))       # 20
+print(list(Dictionary.keys()))         # ['math', 'history', 'Geography', 'chemistry', 'Physics']
+print(list(Dictionary.values()))       # [15, 20, 19, 19, 19]
+print(list(Dictionary.items()))        # [('math',15),('history',20),('Geography',19),('chemistry',19),('Physics',19)]
+print('--- part 01 (Dictionary and loop) ---')
+for key, value in Dictionary.items():
+        print(key + ' --> ' + str(value))
+print('--- part 02 ---')
+dict01 = {'x': 3, 'y': 2, 'z': 1}
+dict02 = {'w': 8, 't': 7}
+combine_dicts = {**dict01, **dict02}
+print(combine_dicts)  # {'x': 3, 'y': 2, 'z': 1, 'w': 8, 't': 7}
+
+k = ['a', 'b']  # list
+v = [4, 8]  # list
+z = zip(k, v)
+d = dict(z)
+print(d)  # {'a': 4, 'b': 8}
+
+Nested_dict = {
+        'name': 'Ali',
+        'children': ['Elena', 'Alice'],
+        'phone': {'home': '021-82880000', 'mobile': '+79055856249'}
+}
+print(len(Nested_dict))                # 3
+print(Nested_dict['phone']['mobile'])  # +79055856249
+print(Nested_dict['children'][0])      # Elena
 
 # Set
 a = {4, 10, 19, 24}
