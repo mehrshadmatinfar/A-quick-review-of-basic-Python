@@ -36,4 +36,13 @@ df.to_excel('file/pd_02_df.xlsx', index=False)
 df.to_csv('file/pd_03_df.csv', index=False, header=False)
 df.to_excel('file/pd_03_df.xlsx', index=False, header=False, sheet_name='my sheet')
 
+# Load
+print('--- Load ---')
+Loaded_df = pd.read_excel('file/pd_01_df.xlsx')
+print(Loaded_df)
+Loaded_df = pd.read_excel('file/pd_01_df.xlsx', index_col=0)
+print(Loaded_df)
 
+Loaded_df = pd.read_csv('file/pd_01_df.csv')
+print(Loaded_df)
+Loaded_df = pd.read_csv('file/pd_01_df.csv', index_col=0)
