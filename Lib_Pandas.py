@@ -14,6 +14,10 @@ df = pd.DataFrame(Dictionary, index=['Bob', 'Ali', 'James', 'Dave'])
 print(df)
 print(df.loc["Bob"])
 
+# information
+print('--- Info ---')
+print(df.info())
+
 # Indexing & Slicing
 print('--- Indexing & Slicing ---')
 # Indexing
