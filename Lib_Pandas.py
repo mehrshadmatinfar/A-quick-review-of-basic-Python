@@ -17,13 +17,17 @@ print(df.loc["Bob"])
 # Indexing & Slicing
 print('--- Indexing & Slicing ---')
 # Indexing
+print('--- Indexing ---')
 print(df['ages'])
 print(df[['ages', 'heights']])
 # Slicing
+print('--- Slicing ---')
 print(df.iloc[2])
 print(df.iloc[:3])
 print(df.iloc[1:3])
+print(df.head(1))
 # Conditions
+print('--- Conditions ---')
 print(df[(df['ages'] > 18) & (df['heights'] > 180)])
 
 # Save
@@ -46,3 +50,4 @@ print(Loaded_df)
 Loaded_df = pd.read_csv('file/pd_01_df.csv')
 print(Loaded_df)
 Loaded_df = pd.read_csv('file/pd_01_df.csv', index_col=0)
+print(Loaded_df)
