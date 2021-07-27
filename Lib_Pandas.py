@@ -25,7 +25,8 @@ print('--- Slicing ---')
 print(df.iloc[2])
 print(df.iloc[:3])
 print(df.iloc[1:3])
-print(df.head(1))
+print(df.head(1))  # return first row
+print(df.tail(2))  # return last 2 rows
 # Conditions
 print('--- Conditions ---')
 print(df[(df['ages'] > 18) & (df['heights'] > 180)])
