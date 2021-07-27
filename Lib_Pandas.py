@@ -16,7 +16,7 @@ print(df.loc["Bob"])
 
 # information
 print('--- Info ---')
-print(df.info())
+df.info()
 
 # Indexing & Slicing
 print('--- Indexing & Slicing ---')
@@ -54,5 +54,17 @@ print(Loaded_df)
 
 Loaded_df = pd.read_csv('file/pd_01_df.csv')
 print(Loaded_df)
+Loaded_df.set_index("ages", inplace=True)
+print(Loaded_df)
+Loaded_df.drop(labels='Unnamed: 0', axis=1, inplace=True)  # axis=1 for drop a column & axis=0 for drop a row
+print(Loaded_df)
 Loaded_df = pd.read_csv('file/pd_01_df.csv', index_col=0)
 print(Loaded_df)
+
+# Working with data
+print('--- Working with data ---')
+Loaded_df['age*height'] = Loaded_df['ages'] * Loaded_df['heights']
+print(Loaded_df)
+print(Loaded_df.describe())
+
+
