@@ -26,3 +26,14 @@ print(df.iloc[1:3])
 # Conditions
 print(df[(df['ages'] > 18) & (df['heights'] > 180)])
 
+# Save
+df.to_csv('file/pd_01_df.csv')
+df.to_excel('file/pd_01_df.xlsx')
+
+df.to_csv('file/pd_02_df.csv', index=False)
+df.to_excel('file/pd_02_df.xlsx', index=False)
+
+df.to_csv('file/pd_03_df.csv', index=False, header=False)
+df.to_excel('file/pd_03_df.xlsx', index=False, header=False, sheet_name='my sheet')
+
+
