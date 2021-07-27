@@ -67,4 +67,14 @@ Loaded_df['age*height'] = Loaded_df['ages'] * Loaded_df['heights']
 print(Loaded_df)
 print(Loaded_df.describe())
 
+# Grouping
+print('--- Grouping ---')
+another_df = pd.DataFrame(
+    {
+        'Grouping': [1, 1, 2, 1, 2, 3, 2, 3, 3],
+        'ages': [10, 50, 32, 19, 81, 21, 24, 7, 4]
+    }
+)
+print(another_df)
+print(another_df.groupby('Grouping')['ages'].sum())
 
